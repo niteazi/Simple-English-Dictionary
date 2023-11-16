@@ -8,7 +8,7 @@ def getWord(canvas):
     url = "https://wordsapiv1.p.rapidapi.com/words/"+word
 
     headers = {
-        "X-RapidAPI-Key": "b350c1a455mshbf0aa23e684befcp1aed76jsn7f0d6b7bfb92",
+        "X-RapidAPI-Key": "keyhere",
         "X-RapidAPI-Host": "wordsapiv1.p.rapidapi.com"
     }
     response= requests.get(url,headers=headers)
